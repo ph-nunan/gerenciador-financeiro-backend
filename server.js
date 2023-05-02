@@ -19,7 +19,7 @@ const PrismaStore = require("./lib/index")(session);
 app.use(express.static(path.join(__dirname, "client")));
 
 //CORS
-
+//ADD YOUR URL HERE
 app.use(
     cors({
       origin: [
